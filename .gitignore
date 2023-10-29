@@ -1,0 +1,7 @@
+env/
+mysite/db.sqlite3
+.idea/
+*.pem
+local_settings.py
+/venv
+.env
