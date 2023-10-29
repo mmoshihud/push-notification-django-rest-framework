@@ -24,6 +24,7 @@ router.register(r"devices", FCMDeviceViewSet)
 
 urlpatterns = [
     re_path(r"^admin/", admin.site.urls),
+    re_path(r"^api/notification/", include("notification.urls")),
     re_path(r"^", include(router.urls)),
     # re_path(r"^docs/", include_docs_urls(title="FCM django web demo")),
 ]
